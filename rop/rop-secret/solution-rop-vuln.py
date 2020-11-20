@@ -7,7 +7,7 @@ lazy = 0x804849b
 
 pop_ret = 0x0804850b
 trePopRet = 0x080486a9
-#perche' non 0x08048509?
+#trePopRet = 0x08048509
 
 magic = 0xdeadbeef
 magic1 = 0xd15ea5e
