@@ -15,7 +15,7 @@ void print_function(char *src){
 
         int canary;
         char dst[100] ;
-
+	//x is up to canary
 	int x = rand() ;
 
 	canary = x ;

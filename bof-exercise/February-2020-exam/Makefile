@@ -1,4 +1,4 @@
-OV = bof1-exercise/bof1 bof2
+OV = bof1-exercise/bof1 bof2-exercise/bof2
 PROGRAMS = $(OV)
 CFLAGS += -no-pie -g -m32 -mpreferred-stack-boundary=2 -fno-stack-protector -zexecstack
 

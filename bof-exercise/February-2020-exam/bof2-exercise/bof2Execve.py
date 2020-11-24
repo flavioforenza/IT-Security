@@ -2,7 +2,7 @@ import struct
 
 diff_buf_ret = 18
 addr_execve = 0xb7eb6660
-#address str (global declaration) --> b * 0x0 --> r --> p &str
+#address str (global declaration) --> b * 0x0 --> r --> p &str / p &chr
 addr_str = 0x804a02c
 addr_chr_NULL = 0x804a035
 

@@ -13,7 +13,7 @@ struct auth *auth;
 char *service;
 
 //OBBIETTIVO: cambiare il valore della variabile auth con il valore 1
-//N.B: notare che non vi è nessuna parte che cambia auth per impostarlo a 1
+//N.B: notare che non vi è nessuna parte che imposta auth a 1
 //N.B: non è possibile fare un BOF
 int main(int argc, char **argv)
 {
