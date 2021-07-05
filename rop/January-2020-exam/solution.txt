@@ -1,2 +1,0 @@
-python exploit.py
-cat badfile badfile1 - | ./vuln 

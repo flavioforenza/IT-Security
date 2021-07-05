@@ -23,7 +23,7 @@ void lazy()
 
 void get_input()
 {
-  //*buf is in libc --> NULL (necessary return 0x0a)
+  //(necessary return 0x0a)
   char *buf = NULL ;
   char buffer[128];
   char buffer1[20] ;

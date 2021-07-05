@@ -52,6 +52,7 @@ int main(int argc, char *argv[]){
 
  	printf("Successful exploit use after free vulnerability\n") ;
  	secret = malloc(24) ;
+	printf("Indirizzo secret: %x \n", secret);
 	build_secret(secret) ;
 
 	get_input(input) ;

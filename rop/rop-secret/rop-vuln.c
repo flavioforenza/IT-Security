@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
   string[0] = 0;
   char filename[]="filename";
   char buf[50] ;
+  printf("Indirizzo filename: %x \n", &filename);
 
   printf("me Can I read the secret file?! \n\n");
   if (argc > 2) {

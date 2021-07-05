@@ -28,6 +28,7 @@ void check_password(char *secret)
 {
 
 	char input[100];
+	printf("Indirizzo var: %p \n", input);
 	char *input_secret;
 	
 	input_secret = malloc(24) ;
